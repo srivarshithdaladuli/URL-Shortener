@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History page of URLS</title>
+
+</Title>  
+</Head>  
+<Body>   
+<font face="arial">
+</head>
+
+
+<body>
+
+    <nav>
+      <h3>  <a href = "/">Home</a> </h3>
+      <h3> <a href = "/history">History</a> </h3> 
+    </nav>
+    <style>
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+
+
+
+    <h1>History of URL's</h1>
+    <table>
+        <tr>
+            <th>original url</th>
+            <th>shorten url </th>
+        </tr>
+
+
+    {% for short_url in  data %}
+        <tr>
+      <td>  {{ data[short_url]}} </td>
+       <td> 127.0.0.1:5000/srivarshithdaladuli/{{short_url}} </td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
