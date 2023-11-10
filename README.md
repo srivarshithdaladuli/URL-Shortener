@@ -96,7 +96,7 @@ Contributions to this project are welcome! If you find any issues or want to add
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this code following the terms of the license.
+This project is licensed under the [MIT License](https://github.com/srivarshithdaladuli/URL-Shortener/blob/main/LICENSE). You are free to use, modify, and distribute this code following the terms of the license.
 
 ---
 
